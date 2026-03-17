@@ -68,7 +68,19 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
 
  Developed by:KRUTHIKA R 
  RegisterNumber: 212225240075
- module exp1(a,b,c,d,e,x,y,z); input a,b; output c,d,e,x,y,z; and (c,a,b); or(d,a,b); xor(e,a,b); nand(x,a,b); nor(y,a,b); xnor(z,a,b); endmodule
+ ```
+module exp1(a,b,c,d,e,x,y,z);
+input a,b;
+output c,d,e,x,y,z;
+and (c,a,b);
+or(d,a,b);
+xor(e,a,b);
+nand(x,a,b);
+nor(y,a,b);
+xnor(z,a,b);
+endmodule
+
+```
  
 **Logic symbol & Truthtable**
 <img width="891" height="532" alt="image" src="https://github.com/user-attachments/assets/a9c341e7-f0a6-44f1-9f8c-93274e0fb147" />
